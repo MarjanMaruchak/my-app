@@ -3,18 +3,48 @@
 }
 
 .App-header {
-  position: fixed;
-  margin-left: 0px;
-  margin-right: 0 px;
-  margin-top: 0px;
-  background-color: #222;
-  height: 150px;
-  width: 100%;
+  background-color: #ea9338;
+  height: 40px;
   color: white;
+  top: 0;
+  left: 0;
+  padding: 0px 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  z-index: 1;
+
+}
+
+.App-title {
+
+  font-size: 1.5em;
 }
 
 .App-intro {
   font-size: large;
-  margin-top: 0px;
 }
 
+.conteiner{
+  margin-top: 50px;
+  padding: 0px ;
+  top: 400px;
+  left: 50%;
+  right: 3%;
+  z-index: 2;
+
+}
+
+.clas {
+  margin: 0!important;
+}
+
+.menu{
+  background: bisque;
+  right: 2px;
+}
+
+.view{
+  background: antiquewhite;
+  left: 2px;
+}
